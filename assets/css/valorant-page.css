@@ -378,7 +378,7 @@ body .content::after {
   background-image: url("../images/slider-right-dec.jpg");
   width: 1000px;
   height: 400px;
-  right: -65px;
+  right: 0px;
   top: 130px;
   z-index: -1;
 }
