@@ -163,7 +163,7 @@ body .header .header-content .header-logo {
   align-items: center;
 }
 body .header .header-content .header-logo span {
-  color: #ff4655;
+  color: rgb(72, 149, 242);
 }
 body .header .header-content .header-logo .pic img {
   width: 100px;
@@ -183,115 +183,29 @@ body .header .header-content .header-list-games li a {
   align-items: center;
   margin: 0 30px;
   border-radius: 30px;
-  border: 3px solid #ff4655;
+  border: 3px solid rgb(72, 149, 242);
 }
 body .header .header-content .header-list-games li a span {
-  color: #ff4655;
+  color: rgb(72, 149, 242);
   font-size: 20px;
   padding: 0 20px;
   font-weight: bold;
 }
 body .header .header-content .header-list-games a:hover {
-  background-color: #ff4655;
+  background-color: rgb(72, 149, 242);
 }
 body .header .header-content .header-list-games a:hover span {
   color: white;
 }
 body .content {
-  padding-top: 80px;
-}
-body .content .random-box {
   padding-top: 130px;
-  padding-bottom: 130px;
-}
-body .content .random-box .agent {
+  height: 1000px;
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 200px;
-  margin: auto auto;
-}
-body .content .random-box .agent .agent-avatar {
-  box-shadow: 0px 10px 48px -3px rgba(0, 0, 0, 0.1);
-  border: 3px solid #ff4655;
-  border-radius: 23px;
-  display: flex;
-  padding: auto 10px;
-  height: 150px;
-}
-body .content .random-box .agent .agent-avatar img {
-  border-radius: 23px;
-  width: 150px;
-}
-body .content .random-box button {
-  display: flex;
-  margin: 0 auto;
-  padding: 10px 20px;
-  border-radius: 23px;
-  color: #ff4655;
-  background-color: white;
-  border: 2px solid #ff4655;
-}
-body .content .random-box button:hover {
-  color: white;
-  background-color: #ff4655;
-}
-body .content .list-agents .types {
-  margin-bottom: 30px;
-}
-body .content .list-agents .types .agent-types {
-  display: flex;
-  justify-content: center;
-  border: 2px solid #ff4655;
-  width: 550px;
-  margin: 0 auto;
-  border-radius: 30px;
-}
-body .content .list-agents .types .agent-types li {
-  cursor: pointer;
-  padding: 20px 30px;
+  font-size: 100px;
   font-weight: bold;
-}
-body .content .list-agents .types .agent-types .active {
-  background-color: #ff4655;
-  color: white;
-}
-body .content .list-agents .agents {
-  display: flex;
-  justify-content: center;
-}
-body .content .list-agents .agents img {
-  width: 100px;
-}
-body .content .list-agents .agents .all-agents {
-  border-radius: 23px;
-  border: 4px solid #ff4655;
-  width: 80%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-left: 10px;
-  background-color: #f9aeb4;
-  margin-bottom: 80px;
-  padding: 20px;
-}
-body .content .list-agents .agents .all-agents li {
-  display: none;
-  justify-content: center;
-  flex: 0 0 10%;
-  border-radius: 23px;
-  margin: 10px 0 10px 0;
-}
-body .content .list-agents .agents .all-agents li img {
-  border: 1px solid black;
-  border-radius: 23px;
-  background-color: #56a69e;
-}
-body .content .list-agents .agents .all-agents .display {
-  display: flex;
-}
-body .content .list-agents .agents .all-agents .choosing {
-  box-shadow: 0px 0px 15px 11px #ff4655;
+  align-items: center;
+  color: aquamarine;
 }
 body .content::after {
   position: absolute;
@@ -317,6 +231,6 @@ body .content::before {
 body .footer {
   width: 100%;
   height: 130px;
-  background-color: #ff4655;
+  background-color: rgb(72, 149, 242);
   opacity: 0.8;
-}/*# sourceMappingURL=valorant-page.css.map */
+}/*# sourceMappingURL=comming-soon.css.map */
