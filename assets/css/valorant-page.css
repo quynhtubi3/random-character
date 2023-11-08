@@ -201,7 +201,7 @@ body .content {
   padding-top: 80px;
 }
 body .content .subnav {
-  background-color: white;
+  background-color: #d3d0d0;
   display: flex;
   justify-content: left;
   padding: 0 20%;
@@ -271,7 +271,6 @@ body .content .random-box button:hover {
 }
 body .content .random-boxes {
   display: none;
-  background-color: white;
   padding-top: 130px;
   padding-bottom: 130px;
 }

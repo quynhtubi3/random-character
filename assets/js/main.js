@@ -55,10 +55,10 @@ function startRandom() {
     setTimeout(function () {
       lstAgents[randomNum].classList.add("choosing");
       currentChoose.src = lstAgents[randomNum].src;
-    }, i * 500);
+    }, i * 250);
     setTimeout(function () {
       lstAgents[randomNum].classList.remove("choosing");
-    }, i * 500 + 500);
+    }, i * 250 + 250);
   }
   for (var i = 1; i <= 10; i++) {
     var array = new Uint32Array(1);
@@ -101,10 +101,10 @@ function randomATeam() {
     setTimeout(function () {
       lstAgents[randomNum].classList.add("choosing");
       lstRnd[j].src = lstAgents[randomNum].src;
-    }, i * 500 * j);
+    }, i * 250 * j);
     setTimeout(function () {
       lstAgents[randomNum].classList.remove("choosing");
-    }, i * 500 * j + 500);
+    }, i * 250 * j + 250);
   }
   function chooseEachAgent(i) {
     var check = false;
