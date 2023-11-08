@@ -30,13 +30,17 @@
             <a href=""><span>LOL</span></a>
           </li>
           <li>
-            <a href=""><span>Valorant</span></a>
+            <a id="have-sub-nav" href=""><span>Valorant</span></a>
           </li>
         </ul>
       </div>
     </div>
     <div class="content">
-      <div class="random-box">
+      <ul class="subnav">
+        <li class="choise-1 choosing" href="" onclick="pickType(1)">Pick 1</li>
+        <li class="choise-2" onclick="pickType(2)">Pick a team</li>
+      </ul>
+      <div class="random-box active-box">
         <div class="agent">
           <div class="agent-avatar">
             <img
@@ -45,7 +49,54 @@
             />
           </div>
         </div>
-        <button onclick="startRandom()">START</button>
+        <button class="button" onclick="startRandom()">START</button>
+      </div>
+      <div class="random-boxes">
+        <div class="agents">
+          <ul>
+            <li>
+              <div class="agent-avatar">
+                <img
+                  src="https://lineups.fun/static/media/icon.addbdfc228730c3f16b3.png"
+                  alt=""
+                />
+              </div>
+            </li>
+            <li>
+              <div class="agent-avatar">
+                <img
+                  src="https://lineups.fun/static/media/icon.addbdfc228730c3f16b3.png"
+                  alt=""
+                />
+              </div>
+            </li>
+            <li>
+              <div class="agent-avatar">
+                <img
+                  src="https://lineups.fun/static/media/icon.addbdfc228730c3f16b3.png"
+                  alt=""
+                />
+              </div>
+            </li>
+            <li>
+              <div class="agent-avatar">
+                <img
+                  src="https://lineups.fun/static/media/icon.addbdfc228730c3f16b3.png"
+                  alt=""
+                />
+              </div>
+            </li>
+            <li>
+              <div class="agent-avatar">
+                <img
+                  src="https://lineups.fun/static/media/icon.addbdfc228730c3f16b3.png"
+                  alt=""
+                />
+              </div>
+            </li>
+          </ul>
+        </div>
+        <button class="button-multi" onclick="randomATeam()">START</button>
       </div>
       <div class="list-agents">
         <div class="types">

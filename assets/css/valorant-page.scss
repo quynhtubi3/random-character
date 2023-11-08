@@ -138,13 +138,14 @@ body {
     position: fixed;
     height: 80px;
     background-color: white;
-    display: flex;
+
     align-items: center;
     box-shadow: 0px 10px 48px -3px rgba(0, 0, 0, 0.1);
     .header-content {
       width: 100%;
-      padding: 20px 100px;
+      padding: 0 100px;
       display: flex;
+      height: 100%;
       .header-logo {
         margin-left: 10%;
         display: flex;
@@ -190,8 +191,41 @@ body {
     }
   }
   .content {
+    .subnav {
+      background-color: white;
+      display: flex;
+      justify-content: left;
+      padding: 0 20%;
+      padding-top: 50px;
+      border-bottom: 2px solid #ff4655;
+      li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 150px;
+        padding: 10px 20px;
+        background-color: white;
+        border: 2px solid #ff4655;
+        border-bottom: none;
+        margin: 0 5px;
+        color: #ff4655;
+        font-weight: bold;
+        border-top-right-radius: 23px;
+        border-top-left-radius: 23px;
+      }
+      li:hover {
+        background-color: #ff4655;
+        color: white;
+      }
+      .choosing {
+        box-shadow: 0px -3px 15px 5px rgba(0, 0, 0, 0.4);
+        background-color: #ff4655;
+        color: white;
+      }
+    }
     padding-top: 80px;
     .random-box {
+      display: none;
       padding-top: 130px;
       padding-bottom: 130px;
       .agent {
@@ -213,6 +247,49 @@ body {
           }
         }
       }
+      .button {
+        display: flex;
+        margin: 0 auto;
+        padding: 10px 20px;
+        border-radius: 23px;
+        color: #ff4655;
+        background-color: white;
+        border: 2px solid #ff4655;
+      }
+      button:hover {
+        color: white;
+        background-color: #ff4655;
+      }
+    }
+    .random-boxes {
+      display: none;
+      ul {
+        display: flex;
+        justify-content: center;
+      }
+      background-color: white;
+      padding-top: 130px;
+      padding-bottom: 130px;
+      .agents {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+        margin: auto auto;
+        .agent-avatar {
+          box-shadow: 0px 10px 48px -3px rgba(0, 0, 0, 0.1);
+          border: 3px solid #ff4655;
+          border-radius: 23px;
+          display: flex;
+          padding: auto 10px;
+          height: 150px;
+          margin: 0 10px;
+          img {
+            border-radius: 23px;
+            width: 150px;
+          }
+        }
+      }
       button {
         display: flex;
         margin: 0 auto;
@@ -226,6 +303,9 @@ body {
         color: white;
         background-color: #ff4655;
       }
+    }
+    .active-box {
+      display: block;
     }
     .list-agents {
       .types {

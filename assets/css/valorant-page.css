@@ -148,14 +148,14 @@ body .header {
   position: fixed;
   height: 80px;
   background-color: white;
-  display: flex;
   align-items: center;
   box-shadow: 0px 10px 48px -3px rgba(0, 0, 0, 0.1);
 }
 body .header .header-content {
   width: 100%;
-  padding: 20px 100px;
+  padding: 0 100px;
   display: flex;
+  height: 100%;
 }
 body .header .header-content .header-logo {
   margin-left: 10%;
@@ -200,7 +200,40 @@ body .header .header-content .header-list-games a:hover span {
 body .content {
   padding-top: 80px;
 }
+body .content .subnav {
+  background-color: white;
+  display: flex;
+  justify-content: left;
+  padding: 0 20%;
+  padding-top: 50px;
+  border-bottom: 2px solid #ff4655;
+}
+body .content .subnav li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  padding: 10px 20px;
+  background-color: white;
+  border: 2px solid #ff4655;
+  border-bottom: none;
+  margin: 0 5px;
+  color: #ff4655;
+  font-weight: bold;
+  border-top-right-radius: 23px;
+  border-top-left-radius: 23px;
+}
+body .content .subnav li:hover {
+  background-color: #ff4655;
+  color: white;
+}
+body .content .subnav .choosing {
+  box-shadow: 0px -3px 15px 5px rgba(0, 0, 0, 0.4);
+  background-color: #ff4655;
+  color: white;
+}
 body .content .random-box {
+  display: none;
   padding-top: 130px;
   padding-bottom: 130px;
 }
@@ -223,7 +256,7 @@ body .content .random-box .agent .agent-avatar img {
   border-radius: 23px;
   width: 150px;
 }
-body .content .random-box button {
+body .content .random-box .button {
   display: flex;
   margin: 0 auto;
   padding: 10px 20px;
@@ -235,6 +268,52 @@ body .content .random-box button {
 body .content .random-box button:hover {
   color: white;
   background-color: #ff4655;
+}
+body .content .random-boxes {
+  display: none;
+  background-color: white;
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+body .content .random-boxes ul {
+  display: flex;
+  justify-content: center;
+}
+body .content .random-boxes .agents {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  margin: auto auto;
+}
+body .content .random-boxes .agents .agent-avatar {
+  box-shadow: 0px 10px 48px -3px rgba(0, 0, 0, 0.1);
+  border: 3px solid #ff4655;
+  border-radius: 23px;
+  display: flex;
+  padding: auto 10px;
+  height: 150px;
+  margin: 0 10px;
+}
+body .content .random-boxes .agents .agent-avatar img {
+  border-radius: 23px;
+  width: 150px;
+}
+body .content .random-boxes button {
+  display: flex;
+  margin: 0 auto;
+  padding: 10px 20px;
+  border-radius: 23px;
+  color: #ff4655;
+  background-color: white;
+  border: 2px solid #ff4655;
+}
+body .content .random-boxes button:hover {
+  color: white;
+  background-color: #ff4655;
+}
+body .content .active-box {
+  display: block;
 }
 body .content .list-agents .types {
   margin-bottom: 30px;
