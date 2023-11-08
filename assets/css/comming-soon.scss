@@ -150,7 +150,7 @@ body {
         display: flex;
         align-items: center;
         span {
-          color: #ff4655;
+          color: rgb(72, 149, 242);
         }
         .pic {
           img {
@@ -171,9 +171,9 @@ body {
             align-items: center;
             margin: 0 30px;
             border-radius: 30px;
-            border: 3px solid #ff4655;
+            border: 3px solid rgb(72, 149, 242);
             span {
-              color: #ff4655;
+              color: rgb(72, 149, 242);
               font-size: 20px;
               padding: 0 20px;
               font-weight: bold;
@@ -181,7 +181,7 @@ body {
           }
         }
         a:hover {
-          background-color: #ff4655;
+          background-color: rgb(72, 149, 242);
           span {
             color: white;
           }
@@ -190,106 +190,14 @@ body {
     }
   }
   .content {
-    padding-top: 80px;
-    .random-box {
-      padding-top: 130px;
-      padding-bottom: 130px;
-      .agent {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 200px;
-        margin: auto auto;
-        .agent-avatar {
-          box-shadow: 0px 10px 48px -3px rgba(0, 0, 0, 0.1);
-          border: 3px solid #ff4655;
-          border-radius: 23px;
-          display: flex;
-          padding: auto 10px;
-          height: 150px;
-          img {
-            border-radius: 23px;
-            width: 150px;
-          }
-        }
-      }
-      button {
-        display: flex;
-        margin: 0 auto;
-        padding: 10px 20px;
-        border-radius: 23px;
-        color: #ff4655;
-        background-color: white;
-        border: 2px solid #ff4655;
-      }
-      button:hover {
-        color: white;
-        background-color: #ff4655;
-      }
-    }
-    .list-agents {
-      .types {
-        .agent-types {
-          display: flex;
-          justify-content: center;
-          border: 2px solid #ff4655;
-          width: 550px;
-          margin: 0 auto;
-          border-radius: 30px;
-          li {
-            cursor: pointer;
-            padding: 20px 30px;
-            font-weight: bold;
-          }
-          // li:hover {
-          //   background-color: #ff4655;
-          //   color: white;
-          // }
-          .active {
-            background-color: #ff4655;
-            color: white;
-          }
-        }
-        margin-bottom: 30px;
-      }
-      .agents {
-        img {
-          width: 100px;
-        }
-        display: flex;
-        justify-content: center;
-        .all-agents {
-          border-radius: 23px;
-          border: 4px solid #ff4655;
-          width: 80%;
-          display: flex;
-          flex-wrap: wrap;
-          justify-content: center;
-          margin-left: 10px;
-          background-color: #f9aeb4;
-          li {
-            display: none;
-            justify-content: center;
-            flex: 0 0 calc(10%);
-            border-radius: 23px;
-            margin: 10px 0 10px 0;
-            img {
-              border: 1px solid black;
-              border-radius: 23px;
-              background-color: #56a69e;
-            }
-          }
-          .display {
-            display: flex;
-          }
-          .choosing {
-            box-shadow: 0px 0px 15px 11px #ff4655;
-          }
-          margin-bottom: 80px;
-          padding: 20px;
-        }
-      }
-    }
+    padding-top: 130px;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    font-weight: bold;
+    align-items: center;
+    color: aquamarine;
   }
   .content::after {
     position: absolute;
@@ -315,7 +223,7 @@ body {
   .footer {
     width: 100%;
     height: 130px;
-    background-color: #ff4655;
+    background-color: rgb(72, 149, 242);
     opacity: 0.8;
   }
 }
